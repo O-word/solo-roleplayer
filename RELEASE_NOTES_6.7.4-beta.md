@@ -17,4 +17,4 @@ SHA-256 checksums (GitHub shows the file names with dots instead of spaces; the 
 fc15e7172da001b23d5ac0cab98c460564659110a5f633083ee9ab6774734c88  SoloRoleplayer M Windows Portable 6.7.4-beta.exe
 1fe2fb32ff3588cdd15a1fb985e02e13f64812583cc63b50e0ec118abec3ba2d  SoloRoleplayer M Windows Setup 6.7.4-beta.exe
 ```
-Free for noncommercial use. Commercial use by license: support@wordblocklabs.com
+Bugs and questions: wordblocklabs.com/support (choose "SoloRoleplayer support") or support@wordblocklabs.com. Free for noncommercial use. Commercial use by license: support@wordblocklabs.com

@@ -30,4 +30,6 @@ No chat is saved to disk by design. No companions, packs or saves are included i
 - Solo R Benchmark Harness (a test tool for this app): see the author's repositories.
 - Westwild, a free tabletop RPG, at wordblocklabs.com/westwild
 
-By Anthony "Othello" Merriweather, WordBlock Labs. Questions: support@wordblocklabs.com
+By Anthony "Othello" Merriweather, WordBlock Labs. Website: wordblocklabs.com
+
+**Support and bug reports:** use the form at **wordblocklabs.com/support** (choose "SoloRoleplayer support"; screenshots are welcome) or email support@wordblocklabs.com. For the Windows build, please include your Windows version.
