@@ -1,8 +1,8 @@
 # SoloRoleplayer M for Windows, 6.7.4-beta (test build)
 
 Two files, pick one:
-- **SoloRoleplayer M Windows Setup 6.7.4-beta.exe**: normal installer (64-bit Windows 10 or 11)
-- **SoloRoleplayer M Windows Portable 6.7.4-beta.exe**: no install, just run it
+- **SoloRoleplayer.M.Windows.Setup.6.7.4-beta.exe**: normal installer (64-bit Windows 10 or 11)
+- **SoloRoleplayer.M.Windows.Portable.6.7.4-beta.exe**: no install, just run it
 
 **Not certified yet.** The files are not signed with a paid certificate, so Windows shows "Windows protected your PC". Click **More info**, then **Run anyway**.
 
@@ -12,7 +12,7 @@ Needs a local AI server (LM Studio, Ollama, KoboldCPP or llama.cpp) at http://12
 
 Known limit: the NPC system is still being worked on.
 
-SHA-256 checksums:
+SHA-256 checksums (GitHub shows the file names with dots instead of spaces; the checksums are the same):
 ```
 fc15e7172da001b23d5ac0cab98c460564659110a5f633083ee9ab6774734c88  SoloRoleplayer M Windows Portable 6.7.4-beta.exe
 1fe2fb32ff3588cdd15a1fb985e02e13f64812583cc63b50e0ec118abec3ba2d  SoloRoleplayer M Windows Setup 6.7.4-beta.exe
