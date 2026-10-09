@@ -10,7 +10,7 @@ Two files, pick one:
 
 Needs a local AI server (LM Studio, Ollama, KoboldCPP or llama.cpp) at http://127.0.0.1:1234. 16 GB RAM minimum. For a 12B to 14B model, an NVIDIA card with 8 GB video memory is the minimum and 12 GB or more is comfortable; no card works, slowly. About 15 GB free disk.
 
-Known limit: the NPC system is still being worked on.
+Known limit: the NPC system is still being worked on. Importing very old Mac-era SQLite `.shard` files may not work on Windows.
 
 SHA-256 checksums (GitHub shows the file names with dots instead of spaces; the checksums are the same):
 ```

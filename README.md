@@ -18,6 +18,7 @@ Download the installer or the portable file from the **Releases** page. The file
 
 ## Known limits
 The NPC system is still being worked on. It will be fully tested and made more usable in later versions.
+Importing very old Mac-era `.shard` save files in the SQLite format needs `sqlite3` installed and is built around Mac folders, so on Windows it may not find them. Normal saves and the current shard format are not affected.
 
 ## Run from source
 `npm install`, then `npm start` (needs Node.js). The Windows installers are built with `npm run dist:win`.
