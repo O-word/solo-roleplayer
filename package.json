@@ -1,0 +1,36 @@
+{
+  "name": "soloroleplayer-m-windows",
+  "version": "6.7.4-beta",
+  "private": true,
+  "description": "SoloRoleplayer M (Mistral edition) desktop app for Windows, test build.",
+  "author": "WordBlock Labs",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "dist:win": "electron-builder --win nsis portable"
+  },
+  "build": {
+    "appId": "com.wordblocklabs.soloroleplayer.m",
+    "productName": "SoloRoleplayer M",
+    "files": ["main.cjs", "preload.cjs", "app/**/*", "build/icons/**/*"],
+    "directories": { "output": "dist" },
+    "asar": true,
+    "win": {
+      "target": ["nsis", "portable"],
+      "icon": "build/icons/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "artifactName": "SoloRoleplayer M Windows Setup ${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "SoloRoleplayer M Windows Portable ${version}.${ext}"
+    }
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  }
+}
