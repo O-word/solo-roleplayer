@@ -29,5 +29,7 @@ Each release lists a **SHA-256 checksum**. In PowerShell, run `Get-FileHash "Sol
 ## System requirements (short version)
 Windows 10 or 11, 64-bit. 16 GB of RAM minimum (32 GB comfortable). For a 12B to 14B model: an NVIDIA graphics card with 8 GB of video memory is the practical minimum and 12 GB or more is comfortable; with no graphics card it runs, slowly. 15 GB of free disk. A screen of at least 1366 x 768 (the window will not shrink below 1180 x 760). These are estimates not yet confirmed on a real Windows PC; see `1_GET_STARTED.md` for the full table.
 
+**16 GB of RAM note:** On 16 GB of RAM the model may run RAM hot and stop inside of SoloRoleplayer even if the LLM server keeps running. You do not have to exit your session, just restart the LLM server (Ollama, Cute LM, etc.) and continue from the error once it's live again. It's a known limitation of smaller RAM allotments but from my testing has been safe to run in multi-hour sessions. On average 2 restarts for every few hours of play.
+
 ## Why we do not just buy the certificate
 A Windows code-signing certificate costs a few hundred dollars a year and requires business verification. This is a solo, self-funded project. When there is room in the budget, signing is on the list, and the warning will go away.
