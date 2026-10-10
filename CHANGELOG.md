@@ -2,6 +2,10 @@
 
 A plain-language history of SoloRoleplayer, newest first. Versions are called SID numbers. Dates are when the work was done. This log was reconstructed from the author's own notes, so early entries are less detailed than recent ones.
 
+## Unreleased (source, October 10, 2026)
+
+- Fixed the black screen after `/exit`: choosing New World from the main menu now shows the setup screen, and starting a new world after `/exit` shows the game. The cause was a leftover inline `display:none` on the setup screen and game view that removing the "hidden" class could not undo. A regression test covers it. The 6.7.4-beta installers still contain this bug; a rebuilt installer will follow.
+
 ## 6.7.4-beta (October 2026): Windows test build, first public source release
 
 **Scene memory and prompt**
@@ -39,7 +43,7 @@ A plain-language history of SoloRoleplayer, newest first. Versions are called SI
 
 **Known issues**
 - The NPC system is still being worked on.
-- After `/exit`, choosing New World can show a black screen. The cause is known and a fix is planned.
+- After `/exit`, choosing New World shows a black screen in the 6.7.4-beta installers. Fixed in the source (see Unreleased above); a rebuilt installer will follow.
 - Importing very old Mac-era SQLite `.shard` files may not work on Windows.
 
 ## 6.7.3 Beta (July 2026): Mistral test lane

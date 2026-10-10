@@ -2657,6 +2657,12 @@ function saveImportedWorldSession(savedState, meta={}){
 function clearImportedWorldSession(){
   try{ localStorage.removeItem(IMPORTED_WORLD_KEY); }catch(err){}
 }
+function showSetupOverlay(){
+  const overlay = document.getElementById("setupOverlay");
+  if(!overlay) return;
+  overlay.classList.remove("hidden");
+  overlay.style.removeProperty("display");
+}
 function returnToSetupScreen(reason="logout_to_setup", options={}){
   const opts = Object.assign({ skipRecoveryAutosave:false }, options || {});
   state.holoRunning = false;
@@ -2677,11 +2683,11 @@ function returnToSetupScreen(reason="logout_to_setup", options={}){
   const launch = document.getElementById("launchScreen");
   if(overlay){
     overlay.classList.add("hidden");
-    overlay.style.display = "none";
+    overlay.style.removeProperty("display"); // SRM-56: the hidden class alone hides it; an inline display:none could never be undone by removing the class
   }
   if(app){
     app.classList.add("hidden");
-    app.style.display = "none";
+    app.style.removeProperty("display"); // SRM-56: same
   }
   if(launch){
     launch.classList.remove("hidden");
@@ -12056,7 +12062,7 @@ document.querySelector(".slot-grid")?.addEventListener("click", e => {
     if(!slot || slotHasWorld(slot)) return;
     state.selectedSlot = slot;
     state.setupComplete = false;
-    document.getElementById("setupOverlay").classList.remove("hidden");
+    showSetupOverlay();
     els.launchScreen.classList.add("hidden");
     autosaveRecovery("new_world_setup_started");
   }
@@ -12070,7 +12076,7 @@ els.newWorldBtn.addEventListener("click",()=>{
   if(!nextSlot) return appendError("All three world slots are occupied. Delete or back up a world first.");
   state.selectedSlot = nextSlot;
   state.setupComplete=false;
-  document.getElementById("setupOverlay").classList.remove("hidden");
+  showSetupOverlay();
   els.launchScreen.classList.add("hidden");
   autosaveRecovery("new_world_setup_started");
 });
@@ -12868,6 +12874,7 @@ showRecoveryPromptIfNeeded();
       byId("setupOverlay").classList.add("hidden");
       byId("launchScreen").classList.add("hidden");
       byId("app").classList.remove("hidden");
+      byId("app").style.removeProperty("display");
 
       if(setup.backgroundCss){ byId("app")?.style.setProperty("--custom-bg", setup.backgroundCss); }
       if (typeof setMode === "function") setMode("construct");
