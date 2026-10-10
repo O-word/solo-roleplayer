@@ -4,4 +4,4 @@
 - **Background images** (`app/assets/`): made by the author with AI. Most were built by blocking out cut-out clipart of buildings at the right angles, so the AI knew the layout wanted, then generating a clean version. The sci-fi starship corridor began as the author's own hand drawing, turned into the finished picture by an image model ("image-2"). They are included for use inside the app. They are not licensed for reuse or redistribution on their own.
 - The app runs on the Electron runtime (MIT license, with Chromium and other open-source notices). The Windows installers bundle Electron and carry its notices.
 - It needs a separate local AI model server that you provide. No model is included.
-- Built on a Mac. The Windows build has not been run on Windows by the author, who has no Windows computer. Please report problems.
+- Built on a Mac. The Windows portable build was verified under Wine on a Mac (it starts, creates a companion and loads a world). It has not been run on a real Windows PC by the author, who has no Windows computer. Please report problems.

@@ -8,7 +8,7 @@ Two files, pick one:
 
 **Not certified yet.** The files are not signed with a paid certificate, so Windows shows "Windows protected your PC". Click **More info**, then **Run anyway**.
 
-**Built on a Mac, not tested on Windows.** The author has no Windows computer. You are the first testers. Please report problems with your Windows version, what happened and a screenshot.
+**Built on a Mac, verified under Wine.** The author has no Windows computer, so the Windows portable file was checked in Wine (a Windows compatibility layer) on a Mac on 2026-10-10: it starts, runs the full setup, creates a companion, loads a world and answers commands, and the `/exit` fix holds. It has not been run on a real Windows PC yet, and the installer file was not tested, so real machines may differ. Please report problems with your Windows version, what happened and a screenshot.
 
 Needs a local AI server (LM Studio, Ollama, KoboldCPP or llama.cpp) at http://127.0.0.1:1234. 16 GB RAM minimum. For a 12B to 14B model, an NVIDIA card with 8 GB video memory is the minimum and 12 GB or more is comfortable; no card works, slowly. About 15 GB free disk.
 

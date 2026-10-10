@@ -5,6 +5,7 @@ A plain-language history of SoloRoleplayer, newest first. Versions are called SI
 ## 6.7.5-beta (October 10, 2026): fix release
 
 - Fixed the black screen after `/exit`: choosing New World from the main menu now shows the setup screen, and starting a new world after `/exit` shows the game. The cause was a leftover inline `display:none` on the setup screen and game view that removing the "hidden" class could not undo. A regression test covers it. If you installed 6.7.4-beta, please update.
+- Verified the Windows portable file under Wine on a Mac (2026-10-10): it starts, completes the 14-step setup, creates a companion, loads a world, answers `/help`, and the `/exit` fix holds. Not yet run on a real Windows PC, and the installer file was not tested.
 - Rebuilt the Windows installer and portable file from the public source. The installer's file list was checked against an approved list, with no saves, companions, logs or private files.
 
 ## 6.7.4-beta (October 2026): Windows test build, first public source release

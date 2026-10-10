@@ -7,7 +7,7 @@ Free for noncommercial use. Commercial use by license (`COMMERCIAL_LICENSE.md`).
 ## Get it (Windows, test build 6.7.5)
 Download the installer or the portable file from the **Releases** page. The files are not signed with a paid Windows certificate yet, so Windows will say "Windows protected your PC". Click **More info**, then **Run anyway**. Checksums and VirusTotal scan links (0 flags on 2026-10-10) are on the release page. Full steps: `docs/0_WINDOWS_INSTALL.md`.
 
-**Built on a Mac, not tested on Windows.** The author has no Windows computer. If something goes wrong, please open an issue with your Windows version, what happened and a screenshot. Fixes can be made quickly.
+**Built on a Mac, verified under Wine.** The author has no Windows computer, so the Windows portable file was checked in Wine (a Windows compatibility layer) on a Mac on 2026-10-10: it starts, runs the full setup, creates a companion, loads a world and answers commands, and the `/exit` fix holds. It has not been run on a real Windows PC yet, and the installer file was not tested, so real machines may differ. Please report problems with your Windows version, what happened and a screenshot. Fixes can be made quickly.
 
 ## Version history
 See `CHANGELOG.md` for what changed in each version, the benchmark results and the known issues. Website: solo.wordblocklabs.com. The LoRA add-on (Anti-H 2.0) is on Hugging Face: huggingface.co/WordBlockLabs/solo-r-lane-lora.
