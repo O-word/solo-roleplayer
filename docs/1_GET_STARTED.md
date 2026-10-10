@@ -29,7 +29,7 @@ These are the author's engineering estimates for running a 12B to 14B model (Mis
 ### Mac (the author's test machine)
 A **16 GB MacBook Air (Apple silicon)** running a model of about 14B or smaller is the tested floor. There a reply takes a few seconds to tens of seconds, and the scene scribe takes about 35 to 40 seconds per pass. Less than 16 GB of memory is not tested.
 
-**16 GB of RAM note:** On 16 GB of RAM the model may run RAM hot and stop inside of SoloRoleplayer even if the LLM server keeps running. You do not have to exit your session, just restart the LLM server (Ollama, Cute LM, etc.) and continue from the error once it's live again. It's a known limitation of smaller RAM allotments but from my testing has been safe to run in multi-hour sessions. On average 2 restarts for every few hours of play.
+**16 GB of RAM note:** On 16 GB of RAM the model may run RAM hot and stop inside of SoloRoleplayer even if the LLM server keeps running. You do not have to exit your session, just restart the LLM server (Ollama, Cute LM, etc.) and continue from the error once it's live again. It's a known limitation of smaller RAM allotments but from my testing (On a Mac) has been safe to run in multi-hour sessions. On average 2 restarts for every few hours of play.
 
 Tell us what you ran it on and how it felt; that is the most useful test report.
 

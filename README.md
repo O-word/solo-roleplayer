@@ -22,7 +22,7 @@ See `CHANGELOG.md` for what changed in each version, the benchmark results and t
 ## System requirements
 Windows 10 or 11 (64-bit), a local AI server, and 16 GB of RAM minimum (32 GB comfortable). Full details in `docs/0_WINDOWS_INSTALL.md` and `docs/1_GET_STARTED.md`.
 
-**16 GB of RAM note:** On 16 GB of RAM the model may run RAM hot and stop inside of SoloRoleplayer even if the LLM server keeps running. You do not have to exit your session, just restart the LLM server (Ollama, Cute LM, etc.) and continue from the error once it's live again. It's a known limitation of smaller RAM allotments but from my testing has been safe to run in multi-hour sessions. On average 2 restarts for every few hours of play.
+**16 GB of RAM note:** On 16 GB of RAM the model may run RAM hot and stop inside of SoloRoleplayer even if the LLM server keeps running. You do not have to exit your session, just restart the LLM server (Ollama, Cute LM, etc.) and continue from the error once it's live again. It's a known limitation of smaller RAM allotments but from my testing (On a Mac) has been safe to run in multi-hour sessions. On average 2 restarts for every few hours of play.
 
 ## Known limits
 **Head-hopping:** If the model starts to head hop, it can be reset by stopping your LLM server, closing the SoloRoleplayer session and restarting both. The model is still being perfected and still hiccups now and again.
