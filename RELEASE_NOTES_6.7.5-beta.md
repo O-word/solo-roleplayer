@@ -19,4 +19,8 @@ SHA-256 checksums (GitHub shows the file names with dots instead of spaces; the 
 6d44a7c7250cefe491b4b52981c839e6b26d945613d057de0be7fe32b3c4714c  SoloRoleplayer M Windows Portable 6.7.5-beta.exe
 5096861d1cef82363ce778a6f8df8845c8779e83f0d3f3bf2a6d317501c0c6f5  SoloRoleplayer M Windows Setup 6.7.5-beta.exe
 ```
+VirusTotal scan, 2026-10-10 (a snapshot, not a guarantee; unsigned installers can still trigger some antivirus tools on other days):
+- Setup: 0 of 64 security vendors flagged it: https://www.virustotal.com/gui/file/5096861d1cef82363ce778a6f8df8845c8779e83f0d3f3bf2a6d317501c0c6f5
+- Portable: 0 of 67 security vendors flagged it: https://www.virustotal.com/gui/file/6d44a7c7250cefe491b4b52981c839e6b26d945613d057de0be7fe32b3c4714c
+
 Bugs and questions: wordblocklabs.com/support (choose "SoloRoleplayer support") or support@wordblocklabs.com. Free for noncommercial use. Commercial use by license: support@wordblocklabs.com
