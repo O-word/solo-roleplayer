@@ -9,6 +9,9 @@ Download the installer or the portable file from the **Releases** page. The file
 
 **Built on a Mac, not tested on Windows.** The author has no Windows computer. If something goes wrong, please open an issue with your Windows version, what happened and a screenshot. Fixes can be made quickly.
 
+## Version history
+See `CHANGELOG.md` for what changed in each version, the benchmark results and the known issues. Website: solo.wordblocklabs.com. The LoRA add-on (Anti-H 2.0) is on Hugging Face: huggingface.co/WordBlockLabs/solo-r-lane-lora.
+
 ## Guides
 - `docs/0_WINDOWS_INSTALL.md`: install, the "install anyway" steps, checksums, minimum requirements
 - `docs/1_GET_STARTED.md`: your first scene
