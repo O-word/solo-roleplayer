@@ -1,4 +1,4 @@
-# SoloRoleplayer: How to build a world (SID 6.7.4)
+# SoloRoleplayer: How to build a world (SID 6.7.5)
 
 A world is the stage your companion and you play on: a name, a genre, a feel, a short permanent reminder, a time frame, and a map. You set it in setup (steps 1 to 3 and 13) and can change most of it later with `/wedit`.
 

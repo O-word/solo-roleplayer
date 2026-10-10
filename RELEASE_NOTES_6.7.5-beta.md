@@ -1,8 +1,10 @@
-# SoloRoleplayer M for Windows, 6.7.4-beta (test build)
+# SoloRoleplayer M for Windows, 6.7.5-beta (test build)
 
 Two files, pick one:
-- **SoloRoleplayer.M.Windows.Setup.6.7.4-beta.exe**: normal installer (64-bit Windows 10 or 11)
-- **SoloRoleplayer.M.Windows.Portable.6.7.4-beta.exe**: no install, just run it
+- **SoloRoleplayer.M.Windows.Setup.6.7.5-beta.exe**: normal installer (64-bit Windows 10 or 11)
+- **SoloRoleplayer.M.Windows.Portable.6.7.5-beta.exe**: no install, just run it
+
+**New in 6.7.5-beta:** fixed the black screen when choosing New World after `/exit`.
 
 **Not certified yet.** The files are not signed with a paid certificate, so Windows shows "Windows protected your PC". Click **More info**, then **Run anyway**.
 
@@ -14,11 +16,7 @@ Known limit: the NPC system is still being worked on. Importing very old Mac-era
 
 SHA-256 checksums (GitHub shows the file names with dots instead of spaces; the checksums are the same):
 ```
-fc15e7172da001b23d5ac0cab98c460564659110a5f633083ee9ab6774734c88  SoloRoleplayer M Windows Portable 6.7.4-beta.exe
-1fe2fb32ff3588cdd15a1fb985e02e13f64812583cc63b50e0ec118abec3ba2d  SoloRoleplayer M Windows Setup 6.7.4-beta.exe
+6d44a7c7250cefe491b4b52981c839e6b26d945613d057de0be7fe32b3c4714c  SoloRoleplayer M Windows Portable 6.7.5-beta.exe
+5096861d1cef82363ce778a6f8df8845c8779e83f0d3f3bf2a6d317501c0c6f5  SoloRoleplayer M Windows Setup 6.7.5-beta.exe
 ```
-VirusTotal scan, 2026-10-09 (a snapshot, not a guarantee; unsigned installers can still trigger some antivirus tools on other days):
-- Setup: 0 of 68 security vendors flagged it: https://www.virustotal.com/gui/file/1fe2fb32ff3588cdd15a1fb985e02e13f64812583cc63b50e0ec118abec3ba2d
-- Portable: 0 of 67 security vendors flagged it: https://www.virustotal.com/gui/file/fc15e7172da001b23d5ac0cab98c460564659110a5f633083ee9ab6774734c88
-
 Bugs and questions: wordblocklabs.com/support (choose "SoloRoleplayer support") or support@wordblocklabs.com. Free for noncommercial use. Commercial use by license: support@wordblocklabs.com

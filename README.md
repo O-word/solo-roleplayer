@@ -4,8 +4,8 @@ An offline, privacy-first roleplay app for one player and an AI companion. It ru
 
 Free for noncommercial use. Commercial use by license (`COMMERCIAL_LICENSE.md`).
 
-## Get it (Windows, test build 6.7.4)
-Download the installer or the portable file from the **Releases** page. The files are not signed with a paid Windows certificate yet, so Windows will say "Windows protected your PC". Click **More info**, then **Run anyway**. Checksums and VirusTotal scan links (0 flags on 2026-10-09) are on the release page. Full steps: `docs/0_WINDOWS_INSTALL.md`.
+## Get it (Windows, test build 6.7.5)
+Download the installer or the portable file from the **Releases** page. The files are not signed with a paid Windows certificate yet, so Windows will say "Windows protected your PC". Click **More info**, then **Run anyway**. Checksums and VirusTotal scan links are on the release page. Full steps: `docs/0_WINDOWS_INSTALL.md`.
 
 **Built on a Mac, not tested on Windows.** The author has no Windows computer. If something goes wrong, please open an issue with your Windows version, what happened and a screenshot. Fixes can be made quickly.
 

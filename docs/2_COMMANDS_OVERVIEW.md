@@ -1,4 +1,4 @@
-# SoloRoleplayer: Commands overview (SID 6.7.4)
+# SoloRoleplayer: Commands overview (SID 6.7.5)
 `[Holo]` = works in the story. `[Construct]` = works in the blank room. `[Both]` = works in either. In the app, `/commands` shows this list a page at a time (`/commands 2`, `/commands next`); `/cmds` is the same.
 
 ## Getting started

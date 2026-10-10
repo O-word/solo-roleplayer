@@ -1,5 +1,5 @@
 # SoloRoleplayer: Get Started Guide
-(Written for the SID 6.7.4 test build. Source of truth for every statement below is the app's own code; where a feature may change, the guide says so.)
+(Written for the SID 6.7.5 test build. Source of truth for every statement below is the app's own code; where a feature may change, the guide says so.)
 
 ## What it is
 SoloRoleplayer is an offline roleplay partner. You play in one scene with one companion, in a text window, using your own AI model running on your own computer. Nothing is sent to a company. Chat is not saved to disk: the app keeps only the last few rounds in memory, and `/purge` clears them at any moment.

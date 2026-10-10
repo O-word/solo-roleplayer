@@ -1,4 +1,4 @@
-# Installing SoloRoleplayer M on Windows (SID 6.7.4 test build)
+# Installing SoloRoleplayer M on Windows (SID 6.7.5 test build)
 
 ## Read this first: the app is not certified yet
 This is a solo-developer test build. It is **not code-signed with a paid Windows certificate**, so Windows does not recognize the publisher and shows a warning the first time you run it. That is expected. It does not mean the file is damaged or malicious; it means Microsoft has not been paid to vouch for it yet. The suggested way to run it is the **"install anyway" path** below. You are always free to check the file first.
@@ -7,8 +7,8 @@ This is a solo-developer test build. It is **not code-signed with a paid Windows
 The author builds on a Mac and has no Windows computer to test on, so this Windows build was made by cross-building and has **not been run on a real Windows PC by us**. It is built from the same app code that runs on the Mac, and the packaged files were checked against the source. If anything goes wrong, **please tell us**: what Windows version, what happened, and a screenshot. The author can correct and rebuild quickly. Your report is how this gets fixed.
 
 ## Two files, pick one
-- **SoloRoleplayer M Windows Setup 6.7.4-beta.exe:** a normal installer. Adds a Start menu entry and an uninstaller.
-- **SoloRoleplayer M Windows Portable 6.7.4-beta.exe:** no install; double-click and it runs. Delete the file to remove it.
+- **SoloRoleplayer M Windows Setup 6.7.5-beta.exe:** a normal installer. Adds a Start menu entry and an uninstaller.
+- **SoloRoleplayer M Windows Portable 6.7.5-beta.exe:** no install; double-click and it runs. Delete the file to remove it.
 
 ## The "install anyway" path
 1. Double-click the file you downloaded.
@@ -19,7 +19,7 @@ The author builds on a Mac and has no Windows computer to test on, so this Windo
 If your security software quarantines the file, add an exception for it or restore it from quarantine, only if you trust where you downloaded it from (our GitHub release page).
 
 ## Check the file yourself (recommended)
-Each release lists a **SHA-256 checksum**. In PowerShell, run `Get-FileHash "SoloRoleplayer M Windows Setup 6.7.4-beta.exe"` and compare the value with the one on the release page. If they match, you have the exact file we built. You can also upload it to a scanner such as VirusTotal; the release page links the scan.
+Each release lists a **SHA-256 checksum**. In PowerShell, run `Get-FileHash "SoloRoleplayer M Windows Setup 6.7.5-beta.exe"` and compare the value with the one on the release page. If they match, you have the exact file we built. You can also upload it to a scanner such as VirusTotal; the release page links the scan.
 
 ## First launch
 1. Start your local AI server first (LM Studio, Ollama, KoboldCPP or llama.cpp with the OpenAI-compatible server on). The app expects `http://127.0.0.1:1234`; use `/connect` if yours is elsewhere.

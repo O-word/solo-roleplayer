@@ -1,4 +1,4 @@
-# SoloRoleplayer: every companion field, what it does, and how it is weighted (SID 6.7.4)
+# SoloRoleplayer: every companion field, what it does, and how it is weighted (SID 6.7.5)
 
 ## The one rule: specificity
 **Vagueness does not work in these fields.** The model does exactly what the setup tells it, and it fills every gap itself, with its own habits and with stereotypes. Say precisely what you want, in plain words, and say what you do NOT want.
