@@ -20,6 +20,8 @@ See `CHANGELOG.md` for what changed in each version, the benchmark results and t
 - `docs/4_COMPANION_FIELDS_GUIDE.md`: what each companion field does and how it is weighted
 
 ## Known limits
+**Head-hopping:** If the model starts to head hop, it can be reset by stopping your LLM server, closing the SoloRoleplayer session and restarting both. The model is still being perfected and still hiccups now and again.
+
 The NPC system is still being worked on. It will be fully tested and made more usable in later versions.
 Importing very old Mac-era `.shard` save files in the SQLite format needs `sqlite3` installed and is built around Mac folders, so on Windows it may not find them. Normal saves and the current shard format are not affected.
 

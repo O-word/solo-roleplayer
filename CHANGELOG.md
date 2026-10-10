@@ -43,6 +43,7 @@ A plain-language history of SoloRoleplayer, newest first. Versions are called SI
 - First Windows installer and portable build of the Mistral line. Built on a Mac and not tested on Windows.
 
 **Known issues (as of 6.7.4-beta; the New World black screen was fixed in 6.7.5-beta)**
+- If the model starts to head hop, it can be reset by stopping your LLM server, closing the SoloRoleplayer session and restarting both. The model is still being perfected and still hiccups now and again.
 - The NPC system is still being worked on.
 - Importing very old Mac-era SQLite `.shard` files may not work on Windows.
 
