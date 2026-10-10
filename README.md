@@ -9,6 +9,34 @@ Download the installer or the portable file from the **Releases** page. The file
 
 **Built on a Mac, verified under Wine.** The author has no Windows computer, so the Windows portable file was checked in Wine (a Windows compatibility layer) on a Mac on 2026-10-10: it starts, runs the full setup, creates a companion, loads a world and answers commands, and the `/exit` fix holds. It has not been run on a real Windows PC yet, and the installer file was not tested, so real machines may differ. Please report problems with your Windows version, what happened and a screenshot. Fixes can be made quickly.
 
+## How it differs from SillyTavern
+SillyTavern is the mature choice for **chat-style play**: free-flowing back and forth, swipes, many characters in group chats, deep lorebooks, expressions and voices, cloud or local models, and a huge extension community. SoloRoleplayer is for **structured, turn-based roleplay** in the style of the MUSH games: you write your pose, the companion writes only its own, inside a world with rooms, a map, scene memory and pictures and ambience for each room, one companion per world session.
+
+| | SoloRoleplayer | SillyTavern |
+|---|---|---|
+| Free-flowing chat | ◐ plain talk in Construct mode | ✓ |
+| Structured, turn-based play (you pose, it poses) | ✓ core design | ◐ group turn orders |
+| MUSH-style commands (`say`, `:`, `@emit`, `+ooc`) | ✓ | — |
+| App keeps the AI in its own lane and repairs replies | ✓ | — not documented as built in |
+| Swipes (try another reply) | — not in this build | ✓ |
+| Rooms, exits and a fixed map | ✓ | — not documented as built in |
+| Pictures and ambience per room | ✓ | ◐ backgrounds built in; ambient audio by extension |
+| Single-companion world sessions with save slots | ✓ three slots | — |
+| App-tracked scene memory (place, clothes, who holds what) | ✓ | ◐ summaries, vector memory, Author's Note |
+| Lorebook / world info | ◐ Library and world codex | ✓ deep |
+| Relationship stages | ✓ `/arc` | — not documented |
+| Many characters in one chat | — one companion per world; NPCs unfinished | ✓ group chats |
+| Expressions, voices, generated images | — | ✓ via extensions |
+| Cloud model APIs | — local only by design | ✓ |
+| Platforms | ◐ Windows test build; Mac from source | ✓ Windows, Mac, Linux, Docker, Android (Termux) |
+| Extensions and customization | — themes, backgrounds, style packets | ✓ |
+| Runs on your machine, no tracking | ✓ | ✓ |
+| Published benchmark and a model trained to stay in lane | ✓ | — not applicable |
+| Maturity | early beta, one maker | established, 300+ contributors |
+| Cost and license | free for noncommercial use; source available | free and open source (AGPL-3.0) |
+
+✓ yes, built in. ◐ partly, or through add-ons. — no, or not documented. The SillyTavern column is based on its public documentation (docs.sillytavern.app) as of October 10, 2026; if we got something wrong, please open an issue. Full page with notes: solo.wordblocklabs.com/compare.
+
 ## Version history
 See `CHANGELOG.md` for what changed in each version, the benchmark results and the known issues. Website: solo.wordblocklabs.com. The LoRA add-on (Anti-H 2.0) is on Hugging Face: huggingface.co/WordBlockLabs/solo-r-lane-lora.
 
